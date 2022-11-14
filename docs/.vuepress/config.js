@@ -1,5 +1,5 @@
 module.exports = {
-  title: '个人主页',
+  title: '大数据之路',
   description: 'Personal Website',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/images/photo.jpg' }],
@@ -16,10 +16,13 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
-      {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      {text: '大数据面试题', link: '/bigdata/' },
+      {text: 'Java面试题', link: '/java/'},
+      {text: 'SQL刷题', link: '/sql/'},
+      {text: '大厂面经', link: '/face_sc/' },
+      {text: '学习路线', link: '/learn_road/'},
+      {text: '网站动态', link: '/others/'},
+      {text: 'Github', link: 'https://githun.com'}      
     ],
     // sidebar:{
     //   '/accumulate/': [
